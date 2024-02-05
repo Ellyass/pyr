@@ -1,0 +1,286 @@
+@page { margin-top: 100px;margin-right:25px;margin-left:25px;
+    margin-bottom:12px; }
+
+.header {
+    position: fixed; left: 0px; top: -110px; right: 0px; height: 150px;  text-align: left;
+    margin-top: 15px;
+}
+
+#footer { position: fixed; left: 0px; bottom: 10px; right: 0px; height: 20px; text-align:left; }
+#footer .page:after { content: counter(page); }
+
+body {
+    width: 100%;
+    font-family: "times-new-roman";
+    font-style:normal;
+    font-size:11pt;
+    color: #000;
+
+
+}
+
+ul,
+ol {
+    padding-left: 25px;
+}
+.list > li,
+.list > li .list > li {
+    margin-top: 7px;
+}
+.list > li:first-child {
+    margin-top: 0;
+}
+
+ol.split { list-style-type: none; }
+ol.split li:before
+{
+    counter-increment: mycounter;
+    content: counter(mycounter) ".\00A0\00A0";
+}
+ol.split li
+{
+    text-indent: -1.3em;
+}
+ol.start { counter-reset: mycounter; }
+table {
+
+    border-collapse: collapse; /* IE7 and lower */
+    border-spacing: 0;
+    width: 100%;
+
+
+}
+.tableyuzde40 {
+    width: 40%;
+}
+
+.sag{float: right;}
+tbody{
+    margin:20px;
+
+}
+.headertbl {
+    padding-top:20px;
+    border: solid #ccc 0px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 1px #ccc;
+    -moz-box-shadow: 0 1px 1px #ccc;
+    box-shadow: 0 1px 1px #ccc;
+
+
+
+}
+
+.page_break { page-break-before: always; }
+.sayfa_kes { page-break-before: always; }
+div.breakNow { page-break-after:always; }
+
+.kalin{
+    font-weight: bold;
+}
+.ortala{
+    text-align:center;
+}
+
+table  {border-collapse:collapse;border-spacing:0;width:100%}
+.font10 td{ border:1px solid #999; padding:1px 3px; overflow:hidden;word-break:normal;font-size:10pt;line-height:12px;}
+td{ border:1px solid #999; padding:1px 3px; overflow:hidden;word-break:normal;font-size:11pt;line-height: 12px;}
+th{ font-weight:bold;padding: 2px 0px;
+    border: 1px solid #999;font-size:10pt;
+    text-align: center;
+    overflow:hidden;word-break:normal;background-color:#ffcc99;line-height: 11px;}
+.font10 th{ font-size:10pt;line-height: 11px;}
+.font13 td{ font-size:13pt;}
+.font10{ font-size:10px;}
+
+.table_wps th{
+    font-weight:bold;
+    padding: 1px 0px;
+    border: 1px solid #999;
+    text-align: center;
+    overflow:hidden;
+    word-break:normal;
+    background-color:#ffcc99;
+    font-size:10px;
+    line-height: 10px;
+}
+.table_wps td{ padding:1px 3px;font-size:12px;line-height: 10px;}
+
+.cizgisiz  {}
+.cizgisiz td{ padding:0px;border-style:none;border-width:0px;overflow:hidden;word-break:normal;}
+.cizgisiz th{ font-weight:bold;padding:0px;border-style:none;border-width:0px;overflow:hidden;word-break:normal;}
+.cizgili td{ border:1px solid #999; padding:2px 5px; overflow:hidden;word-break:normal;}
+.cizgili th{border:1px solid #999; padding:2px 5px; overflow:hidden;word-break:normal;}
+
+
+.cizgili  {border-collapse:collapse;border-spacing:0;width:100%}
+.cizgili td{ border:1px solid #999; padding:2px 5px; overflow:hidden;word-break:normal;}
+.cizgili th{ font-weight:bold;padding: 5px 0px;
+    border: 1px solid #999;
+
+    text-align: center;
+    overflow:hidden;word-break:normal;background-color:#ffcc99;}
+
+sifir_bosluk{
+    padding: 0px;
+}
+
+.mini_italic {
+    font-size:9px;
+    line-height: 10px;
+    font-style: italic;
+}
+
+
+
+.content{
+
+}
+.yuzde1{width:1%}
+.yuzde2{width:2%}
+.yuzde3{width:3%}
+.yuzde4{width:4%}
+.yuzde5{width:5%}
+.yuzde7{width:7%}
+.yuzde8{width:8%}
+.yuzde10{width:10%}
+.yuzde13{width:13%}
+.yuzde14{width:14%}
+.yuzde15{width:15%}
+.yuzde14{width:14%}
+.yuzde20{width:20%}
+.yuzde25{width:25%}
+.yuzde28{width:28%}
+.yuzde30{width:30%}
+.yuzde35{width:35%}
+.yuzde40{width:40%}
+.yuzde45{width:45%}
+.yuzde47{width:47%}
+.yuzde48{width:48%}
+.yuzde50{width:50%}
+.yuzde55{width:55%}
+.yuzde60{width:60%}
+.yuzde65{width:65%}
+.yuzde70{width:70%}
+.yuzde75{width:75%}
+.yuzde80{width:80%}
+.yuzde85{width:85%}
+.yuzde90{width:90%}
+.yuzde97{width:97%}
+.yuzde98{width:98%}
+
+.buyuk{
+    font-size: 14px;
+    font-weight: bold;
+}
+.buyuk20{
+    font-size: 20px;
+    font-weight: bold;
+}
+.font9{
+    font-size: 9pt;
+}
+/**sinavda görev alanların isim bilgileri için **/
+.saga_yasla{
+    height:45px;width:200px;
+    float:right;
+}
+
+.font10{
+    font-size: 10pt;
+}
+.font11{
+    font-size: 11pt;
+}
+.font12{
+    font-size: 12pt;
+}
+.font13{
+    font-size: 13pt;
+}
+hr {
+    border: 1px dotted #8c8b8b;
+}
+.gizle{
+    visibility: hidden;
+}
+.sol_cizgisiz{
+    border-left: 1px solid #fff;
+}
+.sol_alt_cizgisiz{
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.max_resim img{
+    max-width: 700px;
+    max-height: 900px;
+
+    border: 1px solid #CCCCCC;
+    background-color: #FFFFFF;
+
+    padding: 1px;
+}
+img{
+    max-width: 750px;
+    max-height: 850px;
+    padding: 1px;
+}
+
+.cevap_anahtari_cerceve {
+    width: 80%;
+
+    background: aqua;
+    margin: auto;
+    padding: 10px;
+}
+.yet1 {
+    width: 15%;
+
+
+    float: left;
+}
+.yet2 {
+    margin-left: 15%;
+
+
+}
+
+.kurallar{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding:5px;
+    border: 1px solid #CCCCCC;
+    font-size: 9pt;
+    font-weight: normal;
+}
+
+.soru_bolumu td{
+    line-height: 14px;
+}
+
+.cevap_anahtari td{
+    line-height: 9px;
+    font-size: 9px;
+}
+.cevap_anahtari th{
+    line-height: 9px;
+    font-size: 10px;
+}
+
+.lineHeight {
+    line-height: 12px;
+}
+
+
+.true_op {
+    color: red;
+    font-weight: bold;
+}
+
+.td_img {
+    width: 14px;
+    height: 14px;
+}
